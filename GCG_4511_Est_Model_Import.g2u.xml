@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>SelectionOnly FindTextAtCursor FindSelectedText CycledSearch</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>616</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>616</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>616</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.Form..Create</string>
+        <string>Gui.Form..Caption("File Selection")</string>
+        <string>Gui.Form..Size(4785,2160)</string>
+        <string>Gui.Form..MinX(0)</string>
+        <string>Gui.Form..MinY(0)</string>
+        <string>Gui.Form..Position(0,0)</string>
+        <string>Gui.Form..BackColor(-2147483633)</string>
+        <string>Gui.Form..MousePointer(0)</string>
+        <string>Gui.Form..Sizeable(False)</string>
+        <string>Gui.Form..Event(UnLoad,Form_UnLoad)</string>
+        <string>Gui.Form.lblQuoteModel.Create(Label,"Model File",True,2565,255,0,150,330,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.Form.txtFile.Create(TextBox,"",True,3540,300,0,165,660,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.Form.cmdBrowse.Create(Button)</string>
+        <string>Gui.Form.cmdBrowse.Size(570,375)</string>
+        <string>Gui.Form.cmdBrowse.Position(3855,630)</string>
+        <string>Gui.Form.cmdBrowse.Caption("^")</string>
+        <string>Gui.Form.cmdBrowse.Event(Click,cmdBrowse_Click)</string>
+        <string>Gui.Form.cmdProcess.Create(Button)</string>
+        <string>Gui.Form.cmdProcess.Size(1065,435)</string>
+        <string>Gui.Form.cmdProcess.Position(150,1080)</string>
+        <string>Gui.Form.cmdProcess.Caption("Process")</string>
+        <string>Gui.Form.cmdProcess.Event(Click,cmdProcess_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Program.External.Include.Library("GCG_4511_Est_Model_Import.lib")</string>
+        <string />
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Global.sjob.Declare(String)</string>
+        <string>v.Global.ssuffix.Declare(string)</string>
+        <string>v.Global.sfile.Declare(string)</string>
+        <string />
+        <string>'This custom GAB script reads an Excel Spreadsheet to create Router and Schedule a Work Order(s) then backward schedule the Work Order.</string>
+        <string>'Coded by WAW</string>
+        <string>'Date: 3/27/17</string>
+        <string />
+        <string>'open connection</string>
+        <string>F.odbc.Connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass,100000)</string>
+        <string />
+        <string>'display the form</string>
+        <string>gui.Form..Visible(true)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.Form_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>gui.Form..Visible(false)</string>
+        <string />
+        <string>'closing connection and ending program</string>
+        <string>F.ODBC.Connection!conx.Close</string>
+        <string>Function.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Form_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.cmdProcess_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Form_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sfilename.Declare(string)</string>
+        <string>v.Local.iworksheetcounter.Declare(long)</string>
+        <string>v.Local.iret.Declare(long)</string>
+        <string>v.Local.irow.Declare(long)</string>
+        <string>v.Local.sline.declare(String)</string>
+        <string>v.Local.srow.Declare(String)</string>
+        <string>v.Local.iord.Declare(long)</string>
+        <string>v.Local.suploaddata.Declare(String)</string>
+        <string>v.Local.swo.Declare(string)</string>
+        <string>v.Local.selements.Declare(String)</string>
+        <string>v.Local.sdata.Declare(String)</string>
+        <string>v.Local.stypes.Declare(String)</string>
+        <string>v.Local.ix.Declare(long)</string>
+        <string>v.Local.svalue.Declare(string)</string>
+        <string />
+        <string>'close the form</string>
+        <string>gui.Form..Visible(false)</string>
+        <string>F.Intrinsic.UI.InvokeWaitDialog("Processing...")</string>
+        <string />
+        <string>'create the upload datatable</string>
+        <string>v.Local.stypes.set("string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string*!*string")</string>
+        <string>v.Local.sdata.Set("*!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!**!*")</string>
+        <string>V.Local.sElements.Set("JOB*!*SUFFIX*!*PART*!*LOCATION*!*ROUTER*!*DESCRIPTION*!*CUSTOMER*!*CUSTOMER_PO*!*QTY_ORDERED*!*DATE_OPENED*!*DATE_DUE*!*DATE_START*!*DATE_START_OTHER*!*COMMENTS_1*!*COMMENTS_2*!*USER_CODE*!*QTY_COMPLETED*!*SALESPERSON*!*DATE_CLOSED*!*PRODUCT_LINE*!*AMT_PRICE_PER_UNIT*!*QTY_CUSTOMER*!*PART_DESCRIPTION*!*PRIORITY*!*PROJECT*!*COMMENTS_3*!*PARENT_WO*!*PARENT_SUFFIX_PARENT")</string>
+        <string>F.Data.DataTable.CreateFromString("WORKORDER",v.Local.sdata,V.Local.selements,V.Local.stypes,"*!*","@!@",True)</string>
+        <string />
+        <string>'f.Intrinsic.File.GetFileNameFromFQN(v.Screen.Form!txtFile.Text,v.Local.sfilename)</string>
+        <string>v.Local.iworksheetcounter.Set(1)</string>
+        <string />
+        <string>'prepare the excel sheet to be read</string>
+        <string>F.Automation.MSExcel.CreateAppObject("MSExcel")</string>
+        <string>F.Automation.MSExcel.OpenWorkbook("MSEXcel","GuideTree",V.Global.sfile)</string>
+        <string>F.Automation.MSExcel.OpenWorksheet("GuideTree","GuideSheet",V.Local.iworksheetcounter)</string>
+        <string />
+        <string>'get the rows of the current spreadsheet</string>
+        <string>F.Automation.MSExcel.RowCount("GuideSheet",V.Local.iret)</string>
+        <string />
+        <string>'redim the UDT</string>
+        <string>v.uGlobal.uRtr.Redim(0,0)</string>
+        <string>v.Local.iord.Set(0)</string>
+        <string>''loop through the rows of the spreadsheet</string>
+        <string>F.Intrinsic.Control.For(V.Local.irow,2,V.Local.iret,1)</string>
+        <string>	'reads the sequence cell within the excel spreadsheet</string>
+        <string>	F.Automation.MSExcel.ReadRow("GuideSheet",V.Local.irow,1,52,V.local.srow)</string>
+        <string>	f.Intrinsic.String.Split(v.Local.srow,"*!*",v.Local.srow)</string>
+        <string>	v.uGlobal.uRtr.RedimPreserve(0,v.Local.iord)</string>
+        <string>	'set the router information</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!NUMBER.Set(v.Local.srow(0))</string>
+        <string>	f.Intrinsic.String.Split(v.Local.srow(0)," ",v.Local.swo)</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Desc.Set(v.Local.srow(1))	</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Sequence.Set(v.Local.srow(2))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!LMO.Set(v.Local.srow(3))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!PART.Set(v.Local.srow(4))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!WorkCenter.Set(v.Local.srow(5))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Seq_Desc.Set(v.Local.srow(6))	</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Setup.Set(v.Local.srow(7))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Runtime.Set(v.Local.srow(8))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!CUSTOMER.Set(v.Local.srow(9))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Orig_Date.Set(v.Local.srow(10))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Operation.set(v.Local.srow(11))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Rate.Set(v.Local.srow(12))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!UM.Set(v.Local.srow(13))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Desc1.Set(v.Local.srow(14))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Desc2.Set(v.Local.srow(15))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Desc3.Set(v.Local.srow(16))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty1.Set(v.Local.srow(17))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty2.Set(v.Local.srow(18))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty3.Set(v.Local.srow(19))						</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty4.Set(v.Local.srow(20))	</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Purge.Set(v.Local.srow(21))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Frequency.Set(v.Local.srow(22))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Machine.set(v.Local.srow(23))	</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Overlap.Set(v.Local.srow(24))		</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!WCFact.Set(v.Local.srow(25))	</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Min_Flag.Set(v.Local.srow(26))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Min_Out.Set(v.Local.srow(27))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Crew.Set(v.Local.srow(28))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Lead.Set(v.Local.srow(29))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Locn.Set(v.Local.srow(30))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Tooling.Set(v.Local.srow(31))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Sort.Set(v.Local.srow(32))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Drawing.Set(v.Local.srow(33))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Misc_Text.Set(v.Local.srow(34))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Scrap.Set(v.Local.srow(35))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Cust_Part.Set(v.Local.srow(36))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Sort1.Set(v.Local.srow(37))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Sort2.Set(v.Local.srow(38))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Commission.Set(v.Local.srow(39))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty5.Set(v.Local.srow(40))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty6.Set(v.Local.srow(41))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty7.Set(v.Local.srow(43))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty8.Set(v.Local.srow(44))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty9.Set(v.Local.srow(45))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Qty10.Set(v.Local.srow(46))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Signoff_User.Set(v.Local.srow(47))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Signoff_Type.Set(v.Local.srow(48))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!Prod_Line.Set(v.Local.srow(49))</string>
+        <string>	v.uGlobal.uRtr(v.local.iord)!YieldPct.Set(v.Local.srow(50))	</string>
+        <string>	f.Data.DataTable.AddRow("WORKORDER","JOB",v.local.swo(0).Trim,"SUFFIX",v.Local.swo(1).trim,"PART",v.Local.srow(4).trim,"LOCATION",v.Local.srow(30).trim,"ROUTER",v.Local.srow(0).trim,"DESCRIPTION",v.Local.srow(1).Trim,"CUSTOMER",v.Local.srow(9).trim,"CUSTOMER_PO",v.Local.srow(52).trim,"QTY_ORDERED",v.Local.srow(53).trim,"DATE_OPENED",v.Local.srow(54).trim,"DATE_DUE",v.Local.srow(55).trim,"DATE_START",v.Local.srow(56).trim,"DATE_START_OTHER",v.Local.srow(57).trim,"COMMENTS_1",v.Local.srow(58).trim,"COMMENTS_2",v.Local.srow(59).Trim,"USER_CODE",v.Caller.User,"QTY_COMPLETED",v.Local.srow(60).trim,"SALESPERSON",v.Local.srow(61).trim,"PRODUCT_LINE",v.Local.srow(49).trim,"AMT_PRICE_PER_UNIT",v.Local.srow(62).trim,"QTY_CUSTOMER",v.Local.srow(63).trim,"PART_DESCRIPTION",v.Local.srow(64).trim,"PRIORITY",v.Local.srow(65).trim,"PROJECT",v.Local.srow(66).trim,"COMMENTS_3",v.Local.srow(67).trim,"PARENT_WO",v.Local.srow(68).trim,"PARENT_SUFFIX_PARENT",v.Local.srow(69).trim)</string>
+        <string>	f.Intrinsic.Math.Add(v.Local.iord,1,v.Local.iord)	</string>
+        <string>'	F.Data.DataTable.AddRow("ROUTER","JOB",V.Local.srow(0).Trim,"BDATE",v.Local.srow(51))</string>
+        <string>f.Intrinsic.Control.Next(v.Local.irow)</string>
+        <string>F.Automation.MSExcel.DestroyAllObjects("MSExcel","GuideTree","GuideSheet")</string>
+        <string />
+        <string>'clear all the blank spaces in the datatable</string>
+        <string>'loop through and build the file</string>
+        <string>F.intrinsic.control.for(V.Local.ix,0,v.dataTable.WORKORDER.RowCount--,1)</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).Job.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"JOB"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).SUFFIX.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"SUFFIX"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PART.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PART"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).LOCATION.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"LOCATION"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).ROUTER.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"ROUTER"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).DESCRIPTION.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DESCRIPTION"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).Customer.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"Customer"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).CUSTOMER_PO.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"CUSTOMER_PO"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).QTY_ORDERED.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"QTY_ORDERED"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).DATE_OPENED.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_OPENED"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).DATE_DUE.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_DUE"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).DATE_START.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_START"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).DATE_START_OTHER.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_START_OTHER"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).COMMENTS_1.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"COMMENTS_1"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).COMMENTS_2.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"COMMENTS_2"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).USER_CODE.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"USER_CODE"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf	</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).QTY_COMPLETED.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"QTY_COMPLETED"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf	</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).SALESPERSON.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"SALESPERSON"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PRODUCT_LINE.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PRODUCT_LINE"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).AMT_PRICE_PER_UNIT.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"AMT_PRICE_PER_UNIT"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).QTY_CUSTOMER.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"QTY_CUSTOMER"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PART_DESCRIPTION.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PART_DESCRIPTION"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PRIORITY.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PRIORITY"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).COMMENTS_3.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"COMMENTS_3"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PROJECT.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PROJECT"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PARENT_WO.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PARENT_WO"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).PARENT_SUFFIX_PARENT.fieldvaltrim,=,"OOB")</string>
+        <string>		F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PARENT_SUFFIX_PARENT"," ")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Next(V.Local.ix)</string>
+        <string />
+        <string>f.Intrinsic.UI.CloseWaitDialog</string>
+        <string />
+        <string>'call the router upload sub</string>
+        <string>f.Intrinsic.Control.CallSub(routerupload)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Form_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdProcess_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdBrowse_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdProcess_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sfile.Declare(String)</string>
+        <string>v.Local.sdir.Declare(String)</string>
+        <string />
+        <string>'show the file browser to allow the user to select the XML file</string>
+        <string>F.Intrinsic.String.Build("{0}\Select File",V.Caller.FilesDir,V.Local.sDir)</string>
+        <string>	'open a file explorer and look for an xls sheet</string>
+        <string>	f.Intrinsic.UI.ShowOpenFileDialog("","",v.Global.sfile)</string>
+        <string>	Function.Intrinsic.Control.If(V.Global.sFile,&lt;&gt;,"***CANCEL***")</string>
+        <string>		gui.Form.txtFile.Text(V.Global.sFile)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdProcess_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdBrowse_Click.End</string>
+        <string />
+        <string>Program.Sub.RouterUpload.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("RouterUpload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>f.Intrinsic.Control.CallSub(routeraddrecord)</string>
+        <string>f.Intrinsic.Control.CallSub(routerheader)</string>
+        <string>f.Intrinsic.Control.CallSub(routerline)</string>
+        <string />
+        <string>'generate the work order</string>
+        <string>f.Intrinsic.Control.CallSub(genworkorder)</string>
+        <string />
+        <string>f.Intrinsic.UI.Msgbox("Router/Work Order Upload Complete")</string>
+        <string />
+        <string>f.Intrinsic.Control.CallSub(form_unload)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("RouterUpload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.RouterUpload.End</string>
+        <string />
+        <string>Program.Sub.Schedule.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Schedule_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.sstartDate.Declare(String)</string>
+        <string>v.Local.sdueDate.Declare(String)</string>
+        <string>v.Local.dduedate.Declare(date)</string>
+        <string>v.Local.dstartdate.Declare(date)</string>
+        <string>v.Local.sjob.Declare(String)</string>
+        <string>v.Local.ssuffix.Declare(string)</string>
+        <string>v.Local.sparam.Declare(String)</string>
+        <string>v.Local.ix.Declare(long)</string>
+        <string />
+        <string>'Try this function</string>
+        <string>'Function.Global.APS.ScheduleJob(job, suffix, direction, date, sequence</string>
+        <string />
+        <string>'or use callwrapper</string>
+        <string>''JB0011CL 500030 - Schedule Job</string>
+        <string>'	</string>
+        <string>'Start Date (YYMMDD)</string>
+        <string>'Due Date (YYMMDD)</string>
+        <string>'Workorder</string>
+        <string>'Suffix</string>
+        <string>'Sequence</string>
+        <string>'Schedule</string>
+        <string>'F: Forward Schedule</string>
+        <string>'B: Backward Schedule</string>
+        <string>'H: Scheduling from Current Sequence</string>
+        <string>f.Intrinsic.UI.InvokeWaitDialog("Scheduling...")</string>
+        <string />
+        <string>'loop through and build the file</string>
+        <string>F.intrinsic.control.for(V.Local.ix,0,v.dataTable.WORKORDER.RowCount--,1)</string>
+        <string>	'JOB</string>
+        <string>	v.Local.dduedate.Set(v.DataTable.WORKORDER(v.Local.ix).JOB.fieldvaltrim)</string>
+        <string>	'SUFFIX</string>
+        <string>	v.Local.dduedate.Set(v.DataTable.WORKORDER(v.Local.ix).SUFFIX.fieldvaltrim)</string>
+        <string>	'DATE_DUE</string>
+        <string>	v.Local.dduedate.Set(v.DataTable.WORKORDER(v.Local.ix).DATE_DUE.fieldvaltrim)</string>
+        <string>	'DATE_START</string>
+        <string>	v.Local.dstartdate.set(v.DataTable.WORKORDER(v.Local.ix).DATE_START.fieldvaltrim)</string>
+        <string>	'Schedule WO</string>
+        <string>	F.Intrinsic.String.Format(V.Local.dDueDate,"mmddyy",V.Local.sDueDate)</string>
+        <string>	F.Intrinsic.String.Format(V.Local.dStartDate,"mmddyy",V.Local.sStartDate)</string>
+        <string>	f.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!{4}!*!!*!{5}",v.Local.sdueDate,v.Local.sdueDate,v.local.sjob,v.local.ssuffix,"B",v.Local.sparam)</string>
+        <string>	F.Global.General.CallWrapperSync(500030,V.Local.sParam)</string>
+        <string>f.Intrinsic.Control.Next(v.Local.ix)</string>
+        <string />
+        <string>f.Intrinsic.UI.CloseWaitDialog</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Schedule_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Schedule.End</string>
+        <string />
+        <string>Program.Sub.GenWorkOrder.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GenWorkOrder_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.ix.Declare(Long)</string>
+        <string>V.Local.sWO.Declare(String)</string>
+        <string>V.Local.filename.Declare(String)</string>
+        <string>V.Local.filedir.Declare(String)</string>
+        <string>V.Local.shold.Declare(String)</string>
+        <string>v.Local.sexp.Declare(String)</string>
+        <string>v.Local.sret.Declare(string)</string>
+        <string>v.Local.iloop.Declare(long,0)</string>
+        <string>v.Local.iret.Declare(long,0)</string>
+        <string>v.Local.sfirstjob.Declare(String)</string>
+        <string>v.Local.sfirstsuff.Declare(String)</string>
+        <string>v.Local.scompare.Declare(String)</string>
+        <string>v.Local.sjob.Declare(STring)</string>
+        <string>v.Local.ssuffix.declare(String)</string>
+        <string>v.Local.smsg.Declare(String)</string>
+        <string>v.Local.stypes.Declare(string)</string>
+        <string>v.Local.sdata.Declare(string)</string>
+        <string>v.Local.selements.Declare(string)</string>
+        <string />
+        <string>f.Data.DataTable.DeleteRow("WORKORDER",0)</string>
+        <string />
+        <string>'loop through and build the file</string>
+        <string>F.intrinsic.control.for(V.Local.ix,0,v.dataTable.WORKORDER.RowCount--,1)</string>
+        <string>''JOB</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).Job.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"JOB",V.Local.shold)</string>
+        <string>''SUFFIX</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).SUFFIX.fieldvaltrim," ",3,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,3,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"SUFFIX",V.Local.shold)</string>
+        <string>'PART</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PART.fieldvaltrim," ",20,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,20,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PART",V.Local.shold)</string>
+        <string>''LOCATION</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).LOCATION.fieldvaltrim," ",2,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,2,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"LOCATION",V.Local.shold)</string>
+        <string>'ROUTER</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).ROUTER.fieldvaltrim," ",20,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,20,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"ROUTER",V.Local.shold)</string>
+        <string />
+        <string>'DESCRIPTION</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).DESCRIPTION.fieldvaltrim," ",30,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,30,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DESCRIPTION",V.Local.shold)</string>
+        <string />
+        <string>'CUSTOMER</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).CUSTOMER.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"CUSTOMER",V.Local.shold)</string>
+        <string />
+        <string>'CUSTOMER_PO</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).CUSTOMER_PO.fieldvaltrim," ",20,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,20,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"CUSTOMER_PO",V.Local.shold)</string>
+        <string />
+        <string>'Run Quantity</string>
+        <string>	F.Intrinsic.String.Format(v.DataTable.WORKORDER(v.Local.ix).QTY_ORDERED.fieldvaltrim,"0.0000",V.Local.shold)</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.shold,"0",16,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,16,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"QTY_ORDERED",V.Local.shold)</string>
+        <string />
+        <string>'DATE_OPENED</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).DATE_OPENED.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_OPENED",V.Local.shold)</string>
+        <string />
+        <string>'DATE_DUE</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).DATE_DUE.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_DUE",V.Local.shold)</string>
+        <string>	</string>
+        <string>'DATE_START</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).DATE_START.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_START",V.Local.shold)</string>
+        <string />
+        <string>'DATE_START_OTHER</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).DATE_START_OTHER.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_START_OTHER",V.Local.shold)</string>
+        <string />
+        <string>'COMMENTS_1</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).COMMENTS_1.fieldvaltrim," ",70,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,70,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"COMMENTS_1",V.Local.shold)</string>
+        <string />
+        <string>'COMMENTS_2</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).COMMENTS_2.fieldvaltrim," ",70,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,70,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"COMMENTS_2",V.Local.shold)</string>
+        <string />
+        <string>'USERCODE</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).USER_CODE.fieldvaltrim," ",30,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,30,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"USER_CODE",V.Local.shold)</string>
+        <string />
+        <string>'QTY_COMPLETED</string>
+        <string>	F.Intrinsic.String.Format(v.DataTable.WORKORDER(v.Local.ix).QTY_COMPLETED.fieldvaltrim,"0.0000",V.Local.shold)</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.shold,"0",16,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,16,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"QTY_COMPLETED",V.Local.shold)</string>
+        <string />
+        <string>'SALESPERSON</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).SALESPERSON.fieldvaltrim," ",3,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,3,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"SALESPERSON",V.Local.shold)</string>
+        <string>	</string>
+        <string>'DATE_CLOSED</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).DATE_CLOSED.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"DATE_CLOSED",V.Local.shold)</string>
+        <string />
+        <string>'PRODUCT_LINE</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PRODUCT_LINE.fieldvaltrim," ",2,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,2,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PRODUCT_LINE",V.Local.shold)</string>
+        <string />
+        <string>'AMT_PRICE_PER_UNIT</string>
+        <string>	F.Intrinsic.String.Format(v.DataTable.WORKORDER(v.Local.ix).AMT_PRICE_PER_UNIT.fieldvaltrim,"0.0000",V.Local.shold)</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.shold,"0",16,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,16,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"AMT_PRICE_PER_UNIT",V.Local.shold)</string>
+        <string />
+        <string>'QTY_CUSTOMER</string>
+        <string>	F.Intrinsic.String.Format(v.DataTable.WORKORDER(v.Local.ix).QTY_CUSTOMER.fieldvaltrim,"0.0000",V.Local.shold)</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.shold,"0",16,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,16,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"QTY_CUSTOMER",V.Local.shold)</string>
+        <string />
+        <string>'PART_DESCRIPTION</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PART_DESCRIPTION.fieldvaltrim," ",30,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,30,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PART_DESCRIPTION",V.Local.shold)</string>
+        <string />
+        <string>'PRIORITY</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PRIORITY.fieldvaltrim," ",3,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,3,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PRIORITY",V.Local.shold)</string>
+        <string />
+        <string>'PROJECT</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PROJECT.fieldvaltrim," ",7,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,7,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PROJECT",V.Local.shold)</string>
+        <string />
+        <string>'COMMENTS_3</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).COMMENTS_3.fieldvaltrim," ",70,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,70,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"COMMENTS_3",V.Local.shold)</string>
+        <string />
+        <string>'PARENT_WO</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PARENT_WO.fieldvaltrim," ",6,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,6,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PARENT_WO",V.Local.shold)</string>
+        <string>	</string>
+        <string>'PARENT_SUFFIX_PARENT</string>
+        <string>	F.Intrinsic.String.RPad(v.DataTable.WORKORDER(v.Local.ix).PARENT_SUFFIX_PARENT.fieldvaltrim," ",3,V.Local.shold)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.shold,3,V.Local.shold)</string>
+        <string>	F.Data.DataTable.SetValue("WORKORDER",v.Local.ix,"PARENT_SUFFIX_PARENT",V.Local.shold)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.ix)</string>
+        <string />
+        <string>F.Intrinsic.Control.For(V.Local.ix,0,V.DataTable.WORKORDER.RowCount--,1)</string>
+        <string>	F.Intrinsic.Control.If(v.DataTable.WORKORDER(v.Local.ix).JOB.fieldvaltrim,&lt;&gt;,"")</string>
+        <string>		f.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}",v.Local.sWO,v.DataTable.WORKORDER(v.Local.ix).JOB.fieldval,v.DataTable.WORKORDER(v.Local.ix).SUFFIX.fieldval,v.DataTable.WORKORDER(v.Local.ix).PART.fieldval,v.DataTable.WORKORDER(v.Local.ix).LOCATION.fieldval,v.DataTable.WORKORDER(v.Local.ix).ROUTER.fieldval,v.DataTable.WORKORDER(v.Local.ix).DESCRIPTION.fieldval,V.local.sWO)</string>
+        <string>		f.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}",v.Local.sWO,v.DataTable.WORKORDER(v.Local.ix).CUSTOMER.fieldval,v.DataTable.WORKORDER(v.Local.ix).CUSTOMER_PO.fieldval,v.DataTable.WORKORDER(v.Local.ix).QTY_ORDERED.fieldval,v.DataTable.WORKORDER(v.Local.ix).DATE_OPENED.fieldval,v.DataTable.WORKORDER(v.Local.ix).DATE_DUE.fieldval,v.DataTable.WORKORDER(v.Local.ix).DATE_START.fieldval,V.local.sWO)</string>
+        <string>		f.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}",v.Local.sWO,v.DataTable.WORKORDER(v.Local.ix).DATE_START_OTHER.fieldval,v.DataTable.WORKORDER(v.Local.ix).COMMENTS_1.fieldval,v.DataTable.WORKORDER(v.Local.ix).COMMENTS_2.fieldval,v.DataTable.WORKORDER(v.Local.ix).USER_CODE.fieldval,v.DataTable.WORKORDER(v.Local.ix).QTY_COMPLETED.fieldval,v.DataTable.WORKORDER(v.Local.ix).SALESPERSON.fieldval,V.local.sWO)</string>
+        <string>		f.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}",v.Local.sWO,v.DataTable.WORKORDER(v.Local.ix).DATE_CLOSED.fieldval,v.DataTable.WORKORDER(v.Local.ix).PRODUCT_LINE.fieldval,v.DataTable.WORKORDER(v.Local.ix).AMT_PRICE_PER_UNIT.fieldval,v.DataTable.WORKORDER(v.Local.ix).QTY_CUSTOMER.fieldval,v.DataTable.WORKORDER(v.Local.ix).PART_DESCRIPTION.fieldval,v.DataTable.WORKORDER(v.Local.ix).PRIORITY.fieldval,V.local.sWO)</string>
+        <string>		f.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}",v.Local.sWO,v.DataTable.WORKORDER(v.Local.ix).PROJECT.fieldval,v.DataTable.WORKORDER(v.Local.ix).COMMENTS_3.fieldval,v.DataTable.WORKORDER(v.Local.ix).PARENT_WO.fieldval,v.DataTable.WORKORDER(v.Local.ix).PARENT_SUFFIX_PARENT.fieldval,v.Ambient.NewLine,v.local.sWO)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Next(V.Local.ix)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.sWO,&lt;&gt;,"")</string>
+        <string>	V.Local.filename.Set("JBMDLA.TXT")</string>
+        <string>	'output file</string>
+        <string>	f.Intrinsic.String.Build("{0}\{1}",v.Caller.FilesDir,v.Local.filename,v.Local.filedir)</string>
+        <string>	F.Intrinsic.File.String2File(V.Local.filedir,V.Local.sWO)</string>
+        <string>'	F.Global.General.CallWrappersync(6017,"UPLJBMUL/A/L")</string>
+        <string>	F.Global.General.CallWrappersync(6017,"A!*!50")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GenWorkOrder_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4511_Est_Model_Import.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.GenWorkOrder.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$WAW$}$3/27/2017 11:06:29 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>460</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>23</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>25</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>28</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>30</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>58</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>60</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>83</Y>
+        </EndPoint>
+        <Text>Program.Sub.Form_UnLoad</Text>
+        <DisplayText>Program.Sub.Form_UnLoad</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>85</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>294</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdProcess_Click</Text>
+        <DisplayText>Program.Sub.cmdProcess_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>296</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>322</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdBrowse_Click</Text>
+        <DisplayText>Program.Sub.cmdBrowse_Click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>324</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>351</Y>
+        </EndPoint>
+        <Text>Program.Sub.RouterUpload</Text>
+        <DisplayText>Program.Sub.RouterUpload</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>353</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>413</Y>
+        </EndPoint>
+        <Text>Program.Sub.Schedule</Text>
+        <DisplayText>Program.Sub.Schedule</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>415</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>614</Y>
+        </EndPoint>
+        <Text>Program.Sub.GenWorkOrder</Text>
+        <DisplayText>Program.Sub.GenWorkOrder</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>616</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>618</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
